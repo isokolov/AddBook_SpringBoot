@@ -1,4 +1,4 @@
-package ru.javabegin.training.javafx.springboot.preloader;
+package ru.javabegin.training.javafx.preloader;
 
 import javafx.application.Platform;
 import javafx.application.Preloader;

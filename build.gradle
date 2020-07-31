@@ -31,7 +31,7 @@ repositories {
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-data-jpa') // работа с БД
     compile('org.xerial:sqlite-jdbc:+') // драйвер для связи с БД SQLite
-
+    compile('com.google.guava:guava:+') // утилиты
     // если используетете Java 1.8, то нельзя подключать версию зависимости выше 8.40.15, иначе выйдет ошибка Class file has wrong version
     // подробнее https://github.com/controlsfx/controlsfx
     compile('org.controlsfx:controlsfx:8.40.15')

@@ -1,4 +1,4 @@
-package ru.javabegin.training.javafx.springboot.utils;
+package ru.javabegin.training.javafx.utils;
 
 
 import ru.javabegin.training.javafx.objects.Lang;

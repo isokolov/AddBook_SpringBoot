@@ -1,4 +1,4 @@
-package ru.javabegin.training.javafx.springboot.dialect;
+package ru.javabegin.training.javafx.dialect;
 
 /*
  * The author disclaims copyright to this source code.  In place of

@@ -1,4 +1,4 @@
-package ru.javabegin.training.javafx.springboot.dialect;
+package ru.javabegin.training.javafx.dialect;
 
 import org.hibernate.dialect.identity.IdentityColumnSupportImpl;
 

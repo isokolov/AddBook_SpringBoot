@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package ru.javabegin.training.javafx.springboot.fxml;
+package ru.javabegin.training.javafx.fxml;
 
 import javafx.application.Platform;
 import javafx.beans.property.ObjectProperty;

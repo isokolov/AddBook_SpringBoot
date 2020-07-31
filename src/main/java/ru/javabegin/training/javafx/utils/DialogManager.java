@@ -1,4 +1,4 @@
-package ru.javabegin.training.javafx.springboot.utils;
+package ru.javabegin.training.javafx.utils;
 
 import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;

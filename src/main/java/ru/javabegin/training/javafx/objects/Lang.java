@@ -1,4 +1,4 @@
-package ru.javabegin.training.javafx.springboot.objects;
+package ru.javabegin.training.javafx.objects;
 
 import java.util.Locale;
 

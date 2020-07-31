@@ -1,4 +1,4 @@
-package ru.javabegin.training.javafx.springboot;
+package ru.javabegin.training.javafx;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

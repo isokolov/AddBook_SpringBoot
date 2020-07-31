@@ -1,4 +1,4 @@
-package ru.javabegin.training.javafx.springboot.fxml;
+package ru.javabegin.training.javafx.fxml;
 
 import org.springframework.stereotype.Component;
 

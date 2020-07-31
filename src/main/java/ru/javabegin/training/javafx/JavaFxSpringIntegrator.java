@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package ru.javabegin.training.javafx.springboot;
+package ru.javabegin.training.javafx;
 
 import com.sun.javafx.application.LauncherImpl;
 import javafx.application.Application;
@@ -21,7 +21,7 @@ import javafx.application.Preloader;
 import javafx.stage.Stage;
 import org.springframework.boot.SpringApplication;
 import org.springframework.context.ConfigurableApplicationContext;
-import ru.javabegin.training.javafx.springboot.preloader.TestPreloader;
+import ru.javabegin.training.javafx.preloader.TestPreloader;
 
 import java.util.Arrays;
 
@@ -42,7 +42,7 @@ public abstract class JavaFxSpringIntegrator extends Application {
 		// главный момент - "присоединяем" экземпляр Application (который стартует javafx приложение) к контексту Spring
 		applicationContext.getAutowireCapableBeanFactory().autowireBean(this);
 
-//		printBeans();
+		printBeans();
 
 		// уведомить прелоадер, что загрузка прошла полностью (чтобы скрыть окно инициализации)
 		LauncherImpl.notifyPreloader(this,  new Preloader.ProgressNotification(100));
