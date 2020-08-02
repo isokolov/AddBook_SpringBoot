@@ -1,6 +1,7 @@
 package ru.javabegin.training.javafx.service;
 
 import javafx.collections.ObservableList;
+import org.springframework.data.domain.Page;
 import ru.javabegin.training.javafx.entity.Person;
 
 public interface AddressBook {
@@ -14,5 +15,10 @@ public interface AddressBook {
     ObservableList<Person> findAll();
 
     ObservableList<Person> find(String text);
+
+    Page findAll(int from, int count);
+
+    Page findAll(int from, int count, String... text);
+
 
 }

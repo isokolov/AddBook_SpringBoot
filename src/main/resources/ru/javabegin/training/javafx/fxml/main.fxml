@@ -35,9 +35,9 @@
                 <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
             </VBox.margin>
         </AnchorPane>
-        <AnchorPane prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+        <AnchorPane prefWidth="200.0" VBox.vgrow="ALWAYS">
             <children>
-                <TableView fx:id="tableAddressBook" prefHeight="400.0" prefWidth="700.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                <TableView fx:id="tableAddressBook" prefWidth="700.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                     <columns>
                         <TableColumn fx:id="columnFIO" minWidth="200.0" prefWidth="200.0" text="%fio" />
                         <TableColumn fx:id="columnPhone" minWidth="200.0" prefWidth="200.0" text="%phone" />
@@ -50,6 +50,11 @@
             <VBox.margin>
                 <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
             </VBox.margin>
+        </AnchorPane>
+        <AnchorPane prefHeight="50.0">
+            <children>
+                <Pagination fx:id="pagination" AnchorPane.bottomAnchor="44.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+            </children>
         </AnchorPane>
         <AnchorPane prefHeight="30.0" prefWidth="200.0">
             <children>
